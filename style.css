@@ -1,0 +1,89 @@
+body {
+ background-color: #181818;
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  margin-left: 42%;
+  margin-top: 15px;
+}
+
+label {
+  color: #6699FF;
+  margin-right: 38%;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.btn-group {
+   margin-top: 50px;
+}
+
+img {
+  float: left;
+  height: 230px;
+  margin-left: 30%;
+  margin-top: 24px;
+}
+
+button {
+  display: block;
+  width: 250px;
+  background-color: #303030;
+  border: 1px solid black;
+  padding: 10px 32px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;  
+}
+
+button:hover {
+  text-shadow: 2px 4px 25px  #f5f589;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+p {
+  color: grey;
+}
+
+h2 {
+  font-size: 70%;
+}
+
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.card {
+  background-color: white;
+  margin: 1rem;
+  border: 5px solid  #dcdca3;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: 2px 4px 25px  #f5f589;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color:  #404040;
+  margin-left: 39%;
+}
+
